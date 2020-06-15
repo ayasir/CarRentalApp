@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "878824724262",
+    "firebase_url": "https://carsrental-7b265.firebaseio.com",
+    "project_id": "carsrental-7b265",
+    "storage_bucket": "carsrental-7b265.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878824724262:android:a98082ce129f68105a93e7",
+        "android_client_info": {
+          "package_name": "com.kashsoftwares.dashboardsplashscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878824724262-kp548nrdd1mnf8ahtrsgiau7jgig4icp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kashsoftwares.dashboardsplashscreen",
+            "certificate_hash": "d7c2760d07a955faa2829eca05b886f9352092a9"
+          }
+        },
+        {
+          "client_id": "878824724262-dbvmcmi9osqsue5a9scv4q9cg41u55dd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYIAX7fzk981TaKs0ky62tiAHuvi88xXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878824724262-dbvmcmi9osqsue5a9scv4q9cg41u55dd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

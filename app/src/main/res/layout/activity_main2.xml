@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF8C00"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="80dp"
+        android:orientation="vertical"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+          android:src="@drawable/ic_google" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:includeFontPadding="false"
+            android:paddingTop="20sp"
+            android:shadowColor="#0E0E0E"
+            android:text="Sign In"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="45sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:shadowColor="#0E0E0E"
+            android:text="Sign-In with Google using Firebase!"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="80dp"/>
+
+
+        <ImageButton
+            android:id="@+id/google_signIn_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/sign_in_btn_google"
+
+            android:elevation="10dp"
+
+            android:textColor="#fff" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:layout_marginTop="100dp">
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_facebook"
+                android:layout_weight="1"/>
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_google_plus"
+                android:layout_weight="1"/>
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_twitter"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="bottom"
+            android:includeFontPadding="false"
+            android:shadowColor="#0E0E0E"
+            android:text="kashsoftwares.com"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+</ScrollView>
